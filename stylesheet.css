@@ -75,6 +75,7 @@ body{
 }
 
 
+
 #link a{
 	color: #238355;
 	text-decoration: none;
@@ -175,6 +176,7 @@ footer img{
 
 .left-column img{
 	width: 50%;
+	margin-left: 30px;
 }
  .left-column{
  	clear: both;
