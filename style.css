@@ -23,7 +23,6 @@
 }
 .st-accordion ul li > a span{
 	background: transparent url(assets/down.png) no-repeat center center;
-	text-indent:-9000px;
 	position: absolute;
 	right: -26px;
 	opacity:0;
