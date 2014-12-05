@@ -17,9 +17,9 @@ body{
 
 #logo{
 	position: absolute;
-	width: 50%;
+	width: 70%;
 	top: 25%;
-	left: 25%;
+	left: 17%;
 	z-index: 1;
 
 }
@@ -128,6 +128,18 @@ footer img{
 
 @media screen and (max-width: 768px) {
 
+
+#logo{
+	width: 100%;
+	left: 0;
+	top:12%;
+}    
+
+
+#arrow img{
+	width: 25%;
+}
+
 .wrapper{
 	width: 90%;
 }
@@ -153,13 +165,26 @@ footer img{
 
 @media screen and (max-width: 480px) {
 
+#logo{
+	width: 100%;
+	left: 0;
+}
+
+#arrow img{
+	width: 25%;
+}
+
+.wrapper{
+	width: 100%;
+}
 
 .left-column img{
-	width: 50%;
-	margin-left: 30px;
+	margin-left: 15%;
+	margin-right: 15%;
 }
 
  .left-column{
+
  	clear: both;
  	display: block;
  	width:80%;
@@ -177,12 +202,18 @@ footer img{
 
  .right-column img{
  	width: 90%;
- 	padding-left: 12%;
+	margin-left: 15%;
+	margin-right: 15%;
+
  }
+
 
  p{
  	width: 100%;
- 	margin-left: 6%;
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
 
  }
 }
