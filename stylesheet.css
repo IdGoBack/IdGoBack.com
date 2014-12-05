@@ -169,11 +169,13 @@ footer img{
 @media screen and (max-width: 480px) {
 
 #logo{
-	top: 35%;
+	position: absolute;
+	top: 50%;
 }
 
 #home{
 	height: 90%;
+	max-width: 100%;
 	overflow: hidden;
 }
 
