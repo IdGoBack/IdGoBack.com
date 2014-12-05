@@ -133,10 +133,14 @@ footer img{
 }    
 
 #home{
-	height: 90%;
+	height: 80%;
+	overflow: hidden;
 }
+
 #arrow img{
+	position: absolute;
 	width: 25%;
+	top: 80%;
 }
 
 .wrapper{
@@ -170,9 +174,13 @@ footer img{
 
 #home{
 	height: 90%;
+	overflow: hidden;
 }
+
 #arrow img{
+	position: absolute;
 	width: 25%;
+	top: 80%;
 }
 
 .wrapper{
@@ -183,6 +191,7 @@ footer img{
 	width: 50%;
 	margin-left: 30px;
 }
+
  .left-column{
  	clear: both;
  	display: block;
