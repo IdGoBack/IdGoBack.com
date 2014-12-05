@@ -128,16 +128,6 @@ footer img{
 
 @media screen and (max-width: 768px) {
 
-#hero img{
-		width: 100%;
-	}
-
-#arrow img{
-	position: absolute;
-	width: 25%;
-	top: 80%;
-}
-
 .wrapper{
 	width: 90%;
 }
@@ -163,19 +153,6 @@ footer img{
 
 @media screen and (max-width: 480px) {
 
-#hero img{
-		width: 100%;
-	}
-
-#arrow img{
-	position: absolute;
-	width: 25%;
-	top: 80%;
-}
-
-.wrapper{
-	width: 80%;
-}
 
 .left-column img{
 	width: 50%;
