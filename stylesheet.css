@@ -128,14 +128,6 @@ footer img{
 
 @media screen and (max-width: 768px) {
 
-#logo{
-	top: 35%;
-}    
-
-#home{
-	height: 80%;
-	overflow: hidden;
-}
 
 #arrow img{
 	position: absolute;
@@ -167,7 +159,6 @@ footer img{
 }
 
 @media screen and (max-width: 480px) {
-
 
 #arrow img{
 	position: absolute;
