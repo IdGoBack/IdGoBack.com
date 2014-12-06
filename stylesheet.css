@@ -129,7 +129,7 @@ footer img{
 @media screen and (max-width: 768px) {
 
 #logo{
-	top: 30%;
+	top: 35%;
 }
 
 #home {
@@ -145,6 +145,7 @@ footer img{
 #arrow{
 	position: absolute;
 	top: 70%;
+	margin-left: 40%;
 }
 .wrapper{
 	width: 90%;
