@@ -131,6 +131,7 @@ footer img{
 #home {
 	overflow: hidden;
 	vertical-align: middle;
+	height: 80%;
 }
 #home img{
 	overflow: hidden;
@@ -138,7 +139,7 @@ footer img{
 	overflow: hidden;
 }
 #arrow{
-	display: none;
+	top: 80%;
 }
 .wrapper{
 	width: 90%;
