@@ -128,6 +128,10 @@ footer img{
 
 @media screen and (max-width: 768px) {
 
+#logo{
+	vertical-align: middle;
+}
+
 #home {
 	overflow: hidden;
 	vertical-align: middle;
@@ -141,7 +145,6 @@ footer img{
 #arrow{
 	position: absolute;
 	top: 70%;
-	left: 40%;
 }
 .wrapper{
 	width: 90%;
