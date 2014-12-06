@@ -129,7 +129,7 @@ footer img{
 @media screen and (max-width: 768px) {
 
 #logo{
-	vertical-align: middle;
+	top: 10%;
 }
 
 #home {
