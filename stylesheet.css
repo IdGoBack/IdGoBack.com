@@ -75,6 +75,19 @@ body{
 }
 
 
+.privacy-text{
+	width:90%;
+	padding-left: 4%;
+	text-align: left;
+}
+
+
+.privacy-text p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 700px;
+}
+
 
 #link a{
 	color: #238355;
@@ -118,9 +131,13 @@ footer img{
   	font-size: 16px;
   }
 
-	.right-column img{
+  .right-column img{
 	width: 90%;
-}
+  }
+
+  .privacy-text p{
+  	font-size: 16px;
+  }
 
 }
 
@@ -165,6 +182,13 @@ footer img{
  	text-align: center;
  }
 
+ .privacy-text{
+ 	padding-left: 6%;
+ 	width: 90%;
+ 	clear: both;
+ 	display: block;
+ }
+
  p{
  	width: 100%;
  }
@@ -206,6 +230,11 @@ footer img{
 
  }
 
+ .privacy-text{
+ 	clear: both;
+ 	display: block;
+ 	width:80%;
+ }
 
  p{
  	width: 100%;
