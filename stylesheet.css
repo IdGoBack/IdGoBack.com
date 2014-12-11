@@ -156,7 +156,7 @@ hr{
 	overflow: hidden;
 }
 #arrow{
-	margin-top: -20%; 
+	top: -17%; 
 	margin-left: 40%;
 }
 .wrapper{
@@ -196,7 +196,7 @@ hr{
 }
 
 #arrow{
-	margin-top: -50%; 
+	margin-top: -40%; 
 }
 
  }
