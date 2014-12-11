@@ -11,8 +11,6 @@
    
     <!--stylesheet-->
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="stylesheet" type="text/css" href="style.css"><!--accordion style-->
-    <link rel="stylesheet" type="text/css" href="reset.css"><!--accordion style-->
         
 
     <!--favicon on the tab-->
@@ -31,7 +29,7 @@
      <div id="home">
           <img id="hero" src="assets/igb-hero.png" alt="I'd Go Back">
                 <div id="arrow"> <!--arrow going down-->
-                  <a href="#content"> <img src="assets/down_arrow.png" alt="I'd Go Back"> </a>
+                      <a href="#phones"> <img src="assets/down_arrow.png" alt="I'd Go Back"> </a>
                 </div>
      </div>
   
@@ -41,59 +39,38 @@
 
         <img id="logo" src="assets/logo-igb.png" alt="I'd Go Back">
   
-
-  <div id="content"> <!--info section-->
-    <section class="left-column"> <!-- left column where the three phones are -->
-          <img id="phones" src="assets/threephones.png" alt="I'd Go Back">
-     </section>
+         <img id="phones" src="assets/threephones.png" alt="I'd Go Back">
 
 
      <section class="right-column"> <!--right column where the logo and info is at-->
         <img src="assets/logo-letters.png" alt="I'd Go Back">
-        <p>Engage with friends Worldwide on your Android device! 
+        
+        <p class="des">Engage with friends Worldwide on your Android device! 
           <br>With I’d GO Back you will be able to share photos, 
           <br>the experiences you've had at the places you've visited, 
-          <br>discover new businesses and places wherever you go.</p>
+          <br>discover new businesses and places wherever you go.
+        </p>
 
+        <hr>
 
-        <div id="st-accordion" class="st-accordion">
-                    <ul>
-                        <li>
-                            <a href="#"><b>[JOIN THE EXCLUSIVE BETA]</b><span class="st-arrow" style="color:white">.  .  .  .    </span></a>
-                             
-                            <div class="st-content">
-                                <p id="link"> <a href=" https://plus.google.com/communities/106273624835952277649"> <b>CLICK HERE</b></a>  
-                            to login into Google+ and ask to join!
-                              <br> Once approved, follow the steps <a href="https://play.google.com/apps/testing/com.idgoback"> <b>HERE</b>. </a>       </p>
-                            </div>
+          <p id="link"> 
+              <b>JOIN THE EXCLUSIVE BETA!</b>
+          <br>
+            <a href=" https://plus.google.com/communities/106273624835952277649"> <b>CLICK HERE</b></a>  
+                       to login into Google+ and ask to join!
+          <br> Once approved, follow the steps <a href="https://play.google.com/apps/testing/com.idgoback"> <b>HERE</b>. </a>         
+          </p>
+      </section>
 
-                        </li>
-                      </ul>
-         
-</section>
+  </div> <!-- wrapper ends-->
+    
+          <img id="footer" src="assets/green-back.png" alt="I'd Go Back">
 
-  </div> <!-- the end of the content section-->
-
-</div> <!-- wrapper ends-->
-     <footer>
-      <img src="assets/green-back.png" alt="I'd Go Back">
-   
-        
-
-<!-- javascript for the accordion-->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    <script type="text/javascript" src="js/jquery.accordion.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-        <script type="text/javascript">
-            $(function() {
       
-        $('#st-accordion').accordion();
-        
-            });
-        </script>
- 
 
 <!--jquery smooth scroll-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+
 <script src="jquery-1.11.1.min.js"></script>
 
 <script>
@@ -115,7 +92,6 @@ $(function() {
 </script>    
 
 
-  </footer>
 
 </body>
 
