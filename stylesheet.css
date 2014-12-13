@@ -1,5 +1,10 @@
 /* ------------- TOP SECTION WHERE THE HERO IMAGE AND THE LOGO IS ------ */
 
+/* padding for the privacy policy page */
+.privacy-text{
+	padding: 20px 30px;
+}
+
 /*taking out default margin that some browers have*/
 body,#content {
 	margin: 0;
