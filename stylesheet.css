@@ -93,6 +93,14 @@ hr{
 	margin: 0 auto;
 }
 
+#link{
+	width: 100%;
+    text-align: center;
+}
+
+#link img{
+	width: auto;
+}
 
 #link a{
 	color: #238355;
